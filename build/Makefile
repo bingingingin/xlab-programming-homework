@@ -144,36 +144,6 @@ src/algebra.s:
 .PHONY : src/algebra.s
 
 # target to build an object file
-src/det_matrix.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/det_matrix.obj
-.PHONY : src/det_matrix.obj
-
-# target to preprocess a source file
-src/det_matrix.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/det_matrix.i
-.PHONY : src/det_matrix.i
-
-# target to generate assembly for a file
-src/det_matrix.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/det_matrix.s
-.PHONY : src/det_matrix.s
-
-# target to build an object file
-src/inv_matrix.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/inv_matrix.obj
-.PHONY : src/inv_matrix.obj
-
-# target to preprocess a source file
-src/inv_matrix.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/inv_matrix.i
-.PHONY : src/inv_matrix.i
-
-# target to generate assembly for a file
-src/inv_matrix.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/inv_matrix.s
-.PHONY : src/inv_matrix.s
-
-# target to build an object file
 src/main.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.obj
 .PHONY : src/main.obj
@@ -188,21 +158,6 @@ src/main.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.s
 .PHONY : src/main.s
 
-# target to build an object file
-src/rank.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rank.obj
-.PHONY : src/rank.obj
-
-# target to preprocess a source file
-src/rank.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rank.i
-.PHONY : src/rank.i
-
-# target to generate assembly for a file
-src/rank.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/rank.s
-.PHONY : src/rank.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,18 +170,9 @@ help:
 	@echo ... src/algebra.obj
 	@echo ... src/algebra.i
 	@echo ... src/algebra.s
-	@echo ... src/det_matrix.obj
-	@echo ... src/det_matrix.i
-	@echo ... src/det_matrix.s
-	@echo ... src/inv_matrix.obj
-	@echo ... src/inv_matrix.i
-	@echo ... src/inv_matrix.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/rank.obj
-	@echo ... src/rank.i
-	@echo ... src/rank.s
 .PHONY : help
 
 

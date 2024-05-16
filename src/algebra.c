@@ -218,11 +218,13 @@ Matrix inv_matrix(Matrix a)
         result.cols = 0;
         return result;
     }
+    if(rank_matrix(a)<a.cols){
+        printf("Error: The matrix is singular.\n");
+    }
 
     // 计算矩阵的伴随矩阵
     Matrix adjugate = adjugate_matrix(a);
 
-    // 计算逆矩阵
     double det_inverse = 1.0 / det;
     result = scale_matrix(adjugate, det_inverse);
 

@@ -7,26 +7,8 @@
 },
 {
   "directory": "D:/xlab/programming basics homework/algebra-initial/build",
-  "command": "D:\\downloads\\Compressed\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\det_matrix.obj -c \"D:\\xlab\\programming basics homework\\algebra-initial\\src\\det_matrix.c\"",
-  "file": "D:/xlab/programming basics homework/algebra-initial/src/det_matrix.c",
-  "output": "CMakeFiles/main.dir/src/det_matrix.obj"
-},
-{
-  "directory": "D:/xlab/programming basics homework/algebra-initial/build",
-  "command": "D:\\downloads\\Compressed\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\inv_matrix.obj -c \"D:\\xlab\\programming basics homework\\algebra-initial\\src\\inv_matrix.c\"",
-  "file": "D:/xlab/programming basics homework/algebra-initial/src/inv_matrix.c",
-  "output": "CMakeFiles/main.dir/src/inv_matrix.obj"
-},
-{
-  "directory": "D:/xlab/programming basics homework/algebra-initial/build",
   "command": "D:\\downloads\\Compressed\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\main.obj -c \"D:\\xlab\\programming basics homework\\algebra-initial\\src\\main.c\"",
   "file": "D:/xlab/programming basics homework/algebra-initial/src/main.c",
   "output": "CMakeFiles/main.dir/src/main.obj"
-},
-{
-  "directory": "D:/xlab/programming basics homework/algebra-initial/build",
-  "command": "D:\\downloads\\Compressed\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\rank.obj -c \"D:\\xlab\\programming basics homework\\algebra-initial\\src\\rank.c\"",
-  "file": "D:/xlab/programming basics homework/algebra-initial/src/rank.c",
-  "output": "CMakeFiles/main.dir/src/rank.obj"
 }
 ]

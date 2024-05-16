@@ -83,41 +83,11 @@ CMakeFiles/main.dir/src/algebra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/algebra.s"
 	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\xlab\programming basics homework\algebra-initial\src\algebra.c" -o CMakeFiles\main.dir\src\algebra.s
 
-CMakeFiles/main.dir/src/det_matrix.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/det_matrix.obj: CMakeFiles/main.dir/includes_C.rsp
-CMakeFiles/main.dir/src/det_matrix.obj: D:/xlab/programming\ basics\ homework/algebra-initial/src/det_matrix.c
-CMakeFiles/main.dir/src/det_matrix.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/det_matrix.obj"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/det_matrix.obj -MF CMakeFiles\main.dir\src\det_matrix.obj.d -o CMakeFiles\main.dir\src\det_matrix.obj -c "D:\xlab\programming basics homework\algebra-initial\src\det_matrix.c"
-
-CMakeFiles/main.dir/src/det_matrix.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/det_matrix.i"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\xlab\programming basics homework\algebra-initial\src\det_matrix.c" > CMakeFiles\main.dir\src\det_matrix.i
-
-CMakeFiles/main.dir/src/det_matrix.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/det_matrix.s"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\xlab\programming basics homework\algebra-initial\src\det_matrix.c" -o CMakeFiles\main.dir\src\det_matrix.s
-
-CMakeFiles/main.dir/src/inv_matrix.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/inv_matrix.obj: CMakeFiles/main.dir/includes_C.rsp
-CMakeFiles/main.dir/src/inv_matrix.obj: D:/xlab/programming\ basics\ homework/algebra-initial/src/inv_matrix.c
-CMakeFiles/main.dir/src/inv_matrix.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/inv_matrix.obj"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/inv_matrix.obj -MF CMakeFiles\main.dir\src\inv_matrix.obj.d -o CMakeFiles\main.dir\src\inv_matrix.obj -c "D:\xlab\programming basics homework\algebra-initial\src\inv_matrix.c"
-
-CMakeFiles/main.dir/src/inv_matrix.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/inv_matrix.i"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\xlab\programming basics homework\algebra-initial\src\inv_matrix.c" > CMakeFiles\main.dir\src\inv_matrix.i
-
-CMakeFiles/main.dir/src/inv_matrix.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/inv_matrix.s"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\xlab\programming basics homework\algebra-initial\src\inv_matrix.c" -o CMakeFiles\main.dir\src\inv_matrix.s
-
 CMakeFiles/main.dir/src/main.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/main.obj: D:/xlab/programming\ basics\ homework/algebra-initial/src/main.c
 CMakeFiles/main.dir/src/main.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/main.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/main.obj"
 	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.obj -MF CMakeFiles\main.dir\src\main.obj.d -o CMakeFiles\main.dir\src\main.obj -c "D:\xlab\programming basics homework\algebra-initial\src\main.c"
 
 CMakeFiles/main.dir/src/main.i: cmake_force
@@ -128,42 +98,21 @@ CMakeFiles/main.dir/src/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/main.s"
 	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\xlab\programming basics homework\algebra-initial\src\main.c" -o CMakeFiles\main.dir\src\main.s
 
-CMakeFiles/main.dir/src/rank.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/rank.obj: CMakeFiles/main.dir/includes_C.rsp
-CMakeFiles/main.dir/src/rank.obj: D:/xlab/programming\ basics\ homework/algebra-initial/src/rank.c
-CMakeFiles/main.dir/src/rank.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/rank.obj"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/rank.obj -MF CMakeFiles\main.dir\src\rank.obj.d -o CMakeFiles\main.dir\src\rank.obj -c "D:\xlab\programming basics homework\algebra-initial\src\rank.c"
-
-CMakeFiles/main.dir/src/rank.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/rank.i"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\xlab\programming basics homework\algebra-initial\src\rank.c" > CMakeFiles\main.dir\src\rank.i
-
-CMakeFiles/main.dir/src/rank.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/rank.s"
-	D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\xlab\programming basics homework\algebra-initial\src\rank.c" -o CMakeFiles\main.dir\src\rank.s
-
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/algebra.obj" \
-"CMakeFiles/main.dir/src/det_matrix.obj" \
-"CMakeFiles/main.dir/src/inv_matrix.obj" \
-"CMakeFiles/main.dir/src/main.obj" \
-"CMakeFiles/main.dir/src/rank.obj"
+"CMakeFiles/main.dir/src/main.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/src/algebra.obj
-D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/src/det_matrix.obj
-D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/src/inv_matrix.obj
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/src/main.obj
-D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/src/rank.obj
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/build.make
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 D:/xlab/programming\ basics\ homework/algebra-initial/bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable \"D:\xlab\programming basics homework\algebra-initial\bin\main.exe\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\xlab\programming basics homework\algebra-initial\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable \"D:\xlab\programming basics homework\algebra-initial\bin\main.exe\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
