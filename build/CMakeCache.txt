@@ -116,7 +116,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/xlab/programming basics homework/alge
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/main
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/MAIN
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=D:/downloads/Compressed/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ld.exe
@@ -259,15 +259,6 @@ MAIN_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 MAIN_SOURCE_DIR:STATIC=D:/xlab/programming basics homework/algebra-initial
-
-//Value Computed by CMake
-main_BINARY_DIR:STATIC=D:/xlab/programming basics homework/algebra-initial/build
-
-//Value Computed by CMake
-main_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-main_SOURCE_DIR:STATIC=D:/xlab/programming basics homework/algebra-initial
 
 
 ########################

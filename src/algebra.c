@@ -39,7 +39,7 @@ Matrix sub_matrix(Matrix a, Matrix b)
     Matrix result;
 
     if (a.rows != b.rows || a.cols != b.cols) {
-        printf("Error: The number of cols of matrix a must be equal to the number of rows of matrix b.\n");
+        printf("Error: Matrix a and b must have the same rows and cols.\n");
         result.rows = 0;
         result.cols = 0;
         return result;
@@ -62,6 +62,13 @@ Matrix mul_matrix(Matrix a, Matrix b)
     Matrix result;
     result.rows = a.rows;
     result.cols = b.cols;
+    
+    if (a.cols != b.rows) {
+        printf("Error: The number of cols of matrix a must be equal to the number of rows of matrix b.\n");
+        result.rows = 0;
+        result.cols = 0;
+        return result;
+    }
 
     for (int i = 0; i < a.rows; i++) {
         for (int j = 0; j < b.cols; j++) {
@@ -107,6 +114,11 @@ Matrix transpose_matrix(Matrix a)
 
 double det_matrix(Matrix a)
 {
+    if (a.rows != a.cols) {
+        printf("Error: The matrix must be a square matrix.\n");
+        return 0;
+    }
+    
     // 递归结束条件：对于1x1的矩阵，直接返回该元素本身
     if (a.rows == 1 && a.cols == 1) {
         return a.data[0][0];
@@ -217,7 +229,6 @@ Matrix inv_matrix(Matrix a)
     return result;
 }
 
-// 函数定义：交换矩阵的两行
 void swap_rows(double **matrix, int row1, int row2, int cols) {
     double *temp = matrix[row1];
     matrix[row1] = matrix[row2];
