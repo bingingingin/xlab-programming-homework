@@ -1,0 +1,3 @@
+D:/xlab/programming basics homework/algebra-initial/build/CMakeFiles/main.dir
+D:/xlab/programming basics homework/algebra-initial/build/CMakeFiles/edit_cache.dir
+D:/xlab/programming basics homework/algebra-initial/build/CMakeFiles/rebuild_cache.dir

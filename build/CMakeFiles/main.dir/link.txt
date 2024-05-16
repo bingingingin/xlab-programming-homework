@@ -1,0 +1,3 @@
+D:\bin\cmake.exe -E rm -f CMakeFiles\main.dir/objects.a
+D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\main.dir/objects.a @CMakeFiles\main.dir\objects1.rsp
+D:\downloads\Compressed\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\main.dir/objects.a -Wl,--no-whole-archive -o "D:\xlab\programming basics homework\algebra-initial\bin\main.exe" -Wl,--out-implib,"D:\xlab\programming basics homework\algebra-initial\bin\libmain.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.dir\linkLibs.rsp
